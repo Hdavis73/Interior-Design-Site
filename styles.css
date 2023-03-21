@@ -19,7 +19,8 @@ button a {
   display: flex;
 }
 
-.intro .color-block {
+.intro .color-block,
+.extro .color-block {
   width: 40%;
   height: 100%;
   background-color: #9f9f8f;
@@ -298,16 +299,6 @@ button a {
     border-bottom: 3px solid #848475;
 }
 
-/* .bottom-review-block .card-face.front {
-    border-right: 3px solid #848475;
-    border-bottom: 3px solid #848475;
-}
-
-.bottom-review-block .card-face.back {
-    border-left: 3px solid #848475;
-    border-bottom: 3px solid #848475;
-} */
-
 .card-face.back span {
     font-family: 'Dancing Script';
     font-size: 2rem;
@@ -322,24 +313,62 @@ button a {
     max-height: 200px;
     margin-top: 50px;
 }
-/* .review-block.hovering {
-    transform: rotateY(180deg);
-    visibility: hidden;
-} */
-
-/* .review-block span { */
 .review-card span {
   font-size: 4rem;
   font-weight: bold;
   color: #848475;
-  /* margin-right:  100%; */
   position: absolute;
   left: 5px;
   top: -20px;
 }
 
-/* .review-block p { */
 .card-face p {
   margin-left: 10px;
-  /* margin-top: 30px; */
 }
+
+/* =================== final ============== */
+
+.extro {
+    background-color: #848475;
+    padding: 90px;
+    padding-top: 40px;
+    padding-left: 40px;
+    display: flex;
+    position: relative;
+}
+
+.extro h3 {
+    font-size: 1.5rem;
+}
+
+.extro .outro-text {
+    width: 60%;
+    padding: 50px;
+    padding-right: 30px;
+    position: relative;
+    border-left: 2px solid white;
+    color: white;
+    background-color: #9f9f8f;
+}
+
+.extro .img-wrap {
+    position: relative;
+}
+
+.extro .img-wrap img {
+    width: 100%;
+    height: 100%;
+}
+
+.extro .color-block {
+    width: 30%;
+    right: 200px;
+}
+
+/* width: 40%;
+height: 100%;
+background-color: #9f9f8f;
+position: absolute;
+z-index: 0;
+top: 0;
+right: 100px; */
